@@ -17,7 +17,7 @@ body {
   position: relative;
   margin: 5% auto;
   width: 600px;
-  height: 400px;
+  height: 430px;
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -66,7 +66,7 @@ h1 {
   height: 32px;
   background: #16a085;
   border: none;
-  border-radius: 2px;
+  border-radius: 6px;
   color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
