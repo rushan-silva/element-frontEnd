@@ -41,7 +41,7 @@ class SignUp extends Component {
             lname: this.state.lname,
             email: this.state.email,
             password: this.state.password,
-            accessToken: data.tokenDetail.accessToken,
+            facebookAccessToken: data.tokenDetail.accessToken,
         }
         Service.SignUp(userObj).then(response => {
             console.log('res: ', response);
