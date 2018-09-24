@@ -1,11 +1,11 @@
-import { FETCH_EMOTION_DATA, NEW_DATA } from "./types";
+import { FETCH_SUGGESTION_DATA } from "./types";
 
-export const fetchEmotionData = () => dispatch => {
+export const fetchSuggestionData = () => dispatch => {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
     .then(data =>
       dispatch({
-        type: FETCH_EMOTION_DATA,
+        type: FETCH_SUGGESTION_DATA,
         payload: data
       })
     );
