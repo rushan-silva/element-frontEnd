@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import PropTypes from 'prop-types';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -128,8 +128,10 @@ class SignIn extends Component {
               </div>
             </div> 
           </div>
-        );
-    }
+        </div>
+      </div>
+    );
+  }
 }
 
 export default SignIn;

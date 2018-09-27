@@ -1,2 +1,4 @@
-export const FETCH_POSTS = "FETCH_POSTS";
-export const NEW_POST = "NEW_POST";
+export const FETCH_EMOTION_DATA = "FETCH_EMOTION_DATA";
+export const NEW_DATA = "NEW_DATA";
+export const FETCH_SUCCESS_DATA = "FETCH_SUCCESS_DATA";
+export const FETCH_SUGGESTION_DATA = "FETCH_SUGGESTION_DATA";
