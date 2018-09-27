@@ -19,8 +19,6 @@ async function callApi(apiObject) {
     }
     const url = `${serverUrl}:${port}/${apiObject.endpoint}`;
     const fetchResult = await fetch(url, fetchObject);
-
-    console.log('result: ', fetchResult);
   
     return new Promise(async (resolve, reject) => {
       if (fetchResult.status >= httpStatus.OK && fetchResult.status <= httpStatus.MULTIPLE_CHOICES) {

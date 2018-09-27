@@ -1,0 +1,21 @@
+.addCard {
+    width: 345px;
+    height: 320px;
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+.avatar {
+    width: 60px;
+    height: 60px
+}
+
+.card {
+    max-width: 345px;
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+media {
+    object-fit: cover
+}

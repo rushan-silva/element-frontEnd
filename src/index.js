@@ -12,20 +12,22 @@ import SignIn from './containers/SignIn/SignIn';
 import SignUp from './containers/SignUp/SignUp';
 import Home from './containers/Home/Home';
 import EmotionAnalysisView from  './containers/Dashboard/EmotionView';
+import Progress from './components/CircularProgress';
 
 const target = document.getElementById('root');
 
 ReactDOM.render(
     <Provider store={store}>
         <Router>
-            <PersistGate loading={null} persistor={persistor}>
+            {/* <PersistGate loading={null} persistor={persistor}>*/}
                 <div>
-                    {/* <Route exact path="/" component={SignIn} /> */}
-                    <Route exact path="/" component={EmotionAnalysisView} />
+                    <Route exact path="/" component={SignIn} />
+                    <Route exact path="/emotion-analysis" component={EmotionAnalysisView} />
                     <Route path="/sign-up" component={SignUp} />
                     <Route path="/home" component={Home} />
+                    <Route path="/progress" component={Progress} />
                 </div>
-            </PersistGate>
+            {/* </PersistGate>*/}
         </Router>
     </Provider>,
     target
